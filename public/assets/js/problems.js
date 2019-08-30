@@ -466,5 +466,10 @@ let problems = [
 		"title": "Definition of the Euler-Mascheroni Constant",
 		"description": "Credit to /u/heropup",
 		"latex": String.raw`\gamma = \lim_{n \to \infty} \left(\sum_{k=1}^n \frac{1}{k} - \ln n \right) = \int_1^\infty  \left(\frac{1}{\lfloor x \rfloor } - \frac{1}{x} \right) dx`
-	}
+	},
+	{
+                "title": "Definition of the Halting Set",
+                "description": "Represents the Halting Problem",
+                "latex": String.raw`K = \left\{ \langle i,x \rangle \mid \Phi_i(x)\downarrow \right\}`
+        }
 ];
